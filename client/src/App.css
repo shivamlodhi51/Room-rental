@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+section{
+  width: 100%;
+  float: left;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: aqua;
+}
+.search-bar input{
+  padding: 5px 10px;
+}
